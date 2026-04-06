@@ -1,0 +1,53 @@
+# MHT-CET Advisor Dependencies
+
+# Web Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0  # For parquet support
+
+# PDF Processing
+pdfplumber>=0.10.0
+pypdf>=3.17.0
+
+# Data Visualization
+plotly>=5.18.0
+altair>=5.0.0
+
+# Excel Export
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# PDF Report Generation
+reportlab>=4.0.0
+fpdf2>=2.7.0
+
+# YAML Configuration
+pyyaml>=6.0.0
+
+# HTTP Requests (for fetching PDFs)
+requests>=2.31.0
+httpx>=0.25.0
+
+# Caching
+diskcache>=5.6.0
+
+# Progress bars
+tqdm>=4.66.0
+
+# Fuzzy matching (for college name normalization)
+rapidfuzz>=3.5.0
+
+# Type hints
+typing-extensions>=4.8.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.1.0

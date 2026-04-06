@@ -1,0 +1,344 @@
+# MHT-CET Category and Quota Configuration
+
+# Category Codes as used in official cutoff PDFs
+categories:
+  # General Categories
+  GOPEN: 
+    name: "General Open"
+    full_name: "General Category - Open"
+    gender: "any"
+    description: "Open category for general merit"
+  
+  LOPEN:
+    name: "Ladies Open"
+    full_name: "Ladies - Open Category"
+    gender: "female"
+    description: "Reserved for female candidates"
+  
+  # SC Category
+  GSC:
+    name: "General SC"
+    full_name: "Scheduled Caste - General"
+    gender: "any"
+    description: "Scheduled Caste category"
+  
+  LSC:
+    name: "Ladies SC"
+    full_name: "Scheduled Caste - Ladies"
+    gender: "female"
+    description: "SC reserved for females"
+  
+  # ST Category
+  GST:
+    name: "General ST"
+    full_name: "Scheduled Tribe - General"
+    gender: "any"
+    description: "Scheduled Tribe category"
+  
+  LST:
+    name: "Ladies ST"
+    full_name: "Scheduled Tribe - Ladies"
+    gender: "female"
+    description: "ST reserved for females"
+  
+  # VJ Category (Vimukta Jati)
+  GVJ:
+    name: "General VJ"
+    full_name: "Vimukta Jati - General"
+    gender: "any"
+    description: "Vimukta Jati/Denotified Tribes"
+  
+  LVJ:
+    name: "Ladies VJ"
+    full_name: "Vimukta Jati - Ladies"
+    gender: "female"
+    description: "VJ reserved for females"
+  
+  # NT Categories (Nomadic Tribes)
+  GNT1:
+    name: "General NT1"
+    full_name: "Nomadic Tribe 1 - General"
+    gender: "any"
+    description: "Nomadic Tribe Category 1"
+  
+  LNT1:
+    name: "Ladies NT1"
+    full_name: "Nomadic Tribe 1 - Ladies"
+    gender: "female"
+    description: "NT1 reserved for females"
+  
+  GNT2:
+    name: "General NT2"
+    full_name: "Nomadic Tribe 2 - General"
+    gender: "any"
+    description: "Nomadic Tribe Category 2 (Banjara)"
+  
+  LNT2:
+    name: "Ladies NT2"
+    full_name: "Nomadic Tribe 2 - Ladies"
+    gender: "female"
+    description: "NT2 reserved for females"
+  
+  GNT3:
+    name: "General NT3"
+    full_name: "Nomadic Tribe 3 - General"
+    gender: "any"
+    description: "Nomadic Tribe Category 3"
+  
+  LNT3:
+    name: "Ladies NT3"
+    full_name: "Nomadic Tribe 3 - Ladies"
+    gender: "female"
+    description: "NT3 reserved for females"
+  
+  # OBC Category
+  GOBC:
+    name: "General OBC"
+    full_name: "Other Backward Class - General"
+    gender: "any"
+    description: "Other Backward Class category"
+  
+  LOBC:
+    name: "Ladies OBC"
+    full_name: "Other Backward Class - Ladies"
+    gender: "female"
+    description: "OBC reserved for females"
+  
+  # SEBC Category (Socially and Educationally Backward Class)
+  GSEBC:
+    name: "General SEBC"
+    full_name: "Socially Educationally Backward Class - General"
+    gender: "any"
+    description: "SEBC category (Maratha reservation)"
+  
+  LSEBC:
+    name: "Ladies SEBC"
+    full_name: "Socially Educationally Backward Class - Ladies"
+    gender: "female"
+    description: "SEBC reserved for females"
+  
+  # EWS Category
+  EWS:
+    name: "EWS"
+    full_name: "Economically Weaker Section"
+    gender: "any"
+    description: "10% reservation for economically weaker sections"
+
+# Special Quotas
+special_quotas:
+  TFWS:
+    name: "TFWS"
+    full_name: "Tuition Fee Waiver Scheme"
+    description: "For students with family income < 8 lakhs"
+    eligibility: "Family income below Rs. 8,00,000 per annum"
+  
+  PWDOPEN:
+    name: "PWD Open"
+    full_name: "Persons with Disability - Open"
+    description: "3% horizontal reservation for PWD"
+    eligibility: "Minimum 40% disability certificate"
+  
+  PWDOBC:
+    name: "PWD OBC"
+    full_name: "Persons with Disability - OBC"
+    description: "PWD within OBC category"
+  
+  PWDSC:
+    name: "PWD SC"
+    full_name: "Persons with Disability - SC"
+    description: "PWD within SC category"
+  
+  DEFOPEN:
+    name: "Defence Open"
+    full_name: "Defence Quota - Open"
+    description: "Children of defence personnel"
+    eligibility: "Parent serving/retired from Armed Forces"
+  
+  DEFSC:
+    name: "Defence SC"
+    full_name: "Defence Quota - SC"
+    description: "Defence within SC category"
+  
+  DEFOBC:
+    name: "Defence OBC"
+    full_name: "Defence Quota - OBC"
+    description: "Defence within OBC category"
+  
+  ORPHAN:
+    name: "Orphan"
+    full_name: "Orphan Quota"
+    description: "Reserved for orphan students"
+    eligibility: "Valid orphan certificate"
+  
+  MI:
+    name: "Minority"
+    full_name: "Minority Institution Quota"
+    description: "50% seats in minority institutions"
+    eligibility: "Belonging to respective minority community"
+
+# Home University Suffixes
+home_university_suffixes:
+  H: "Home University"
+  O: "Other than Home University"
+  S: "State Level"
+
+# Quota Types
+quota_types:
+  MH: "Maharashtra State Quota"
+  AI: "All India Quota"
+  JK: "Jammu & Kashmir Migrant Quota"
+
+# Home Universities in Maharashtra
+home_universities:
+  - code: "MU"
+    name: "University of Mumbai"
+    cities: ["Mumbai", "Thane", "Navi Mumbai", "Raigad", "Palghar"]
+  
+  - code: "SPPU"
+    name: "Savitribai Phule Pune University"
+    cities: ["Pune", "Ahmednagar", "Nashik"]
+  
+  - code: "RTMNU"
+    name: "Rashtrasant Tukadoji Maharaj Nagpur University"
+    cities: ["Nagpur", "Bhandara", "Gondia", "Wardha", "Chandrapur"]
+  
+  - code: "SGBAU"
+    name: "Sant Gadge Baba Amravati University"
+    cities: ["Amravati", "Akola", "Buldhana", "Yavatmal", "Washim"]
+  
+  - code: "BAMU"
+    name: "Dr. Babasaheb Ambedkar Marathwada University"
+    cities: ["Aurangabad", "Jalna", "Beed", "Osmanabad"]
+  
+  - code: "SRTMUN"
+    name: "Swami Ramanand Teerth Marathwada University"
+    cities: ["Nanded", "Latur", "Parbhani", "Hingoli"]
+  
+  - code: "DBATU"
+    name: "Dr. Babasaheb Ambedkar Technological University"
+    cities: ["Lonere", "Raigad"]
+  
+  - code: "NMU"
+    name: "North Maharashtra University"
+    cities: ["Jalgaon", "Dhule", "Nandurbar"]
+  
+  - code: "SUK"
+    name: "Shivaji University"
+    cities: ["Kolhapur", "Sangli", "Satara", "Solapur"]
+  
+  - code: "AUTO"
+    name: "Autonomous Institute"
+    cities: []
+    note: "State-level seats, no home university preference"
+
+# College Types
+college_types:
+  - code: "GOVT"
+    name: "Government"
+    description: "State government-run institutions"
+    fee_range: "Low (₹10K-50K/year)"
+  
+  - code: "GOVT_AUTO"
+    name: "Government Autonomous"
+    description: "Government colleges with autonomous status"
+    fee_range: "Low (₹10K-50K/year)"
+  
+  - code: "AIDED"
+    name: "Aided"
+    description: "Private colleges receiving government aid"
+    fee_range: "Medium (₹50K-1L/year)"
+  
+  - code: "UNAIDED"
+    name: "Un-Aided (Private)"
+    description: "Self-financed private institutions"
+    fee_range: "High (₹1L-2L/year)"
+  
+  - code: "UNAIDED_AUTO"
+    name: "Un-Aided Autonomous"
+    description: "Private autonomous institutions"
+    fee_range: "High (₹1L-2.5L/year)"
+  
+  - code: "UNIV_DEPT"
+    name: "University Department"
+    description: "University-run engineering departments"
+    fee_range: "Low-Medium"
+  
+  - code: "MINORITY"
+    name: "Minority Institution"
+    description: "Institutions for religious/linguistic minorities"
+    fee_range: "Varies"
+
+# CAP Rounds
+cap_rounds:
+  - round: 1
+    name: "CAP Round I"
+    typical_timing: "August"
+    notes: "First allotment, highest cutoffs"
+  
+  - round: 2
+    name: "CAP Round II"
+    typical_timing: "August-September"
+    notes: "Second allotment, cutoffs may drop 1-3 percentile"
+  
+  - round: 3
+    name: "CAP Round III"
+    typical_timing: "September"
+    notes: "Third allotment, significant cutoff drops possible"
+  
+  - round: 4
+    name: "CAP Round IV"
+    typical_timing: "September-October"
+    notes: "Final CAP round, lowest cutoffs"
+  
+  - round: "ACAP"
+    name: "Institute Level Rounds"
+    typical_timing: "October onwards"
+    notes: "Direct admission to vacant seats"
+
+# Popular Branches (for filtering)
+branches:
+  computer_science_family:
+    - "Computer Science and Engineering"
+    - "Computer Engineering"
+    - "Information Technology"
+    - "Computer Science and Engineering (Artificial Intelligence)"
+    - "Computer Science and Engineering (Artificial Intelligence and Machine Learning)"
+    - "Computer Science and Engineering (Data Science)"
+    - "Computer Science and Engineering (IoT)"
+    - "Artificial Intelligence (AI) and Data Science"
+    - "Artificial Intelligence and Data Science"
+    - "Artificial Intelligence and Machine Learning"
+  
+  electronics_family:
+    - "Electronics and Telecommunication Engg"
+    - "Electronics Engineering"
+    - "Electronics and Computer Engineering"
+    - "Electronics and Communication Engineering"
+  
+  electrical_family:
+    - "Electrical Engineering"
+    - "Electrical Engg[Electronics and Power]"
+  
+  mechanical_family:
+    - "Mechanical Engineering"
+    - "Automobile Engineering"
+    - "Production Engineering"
+  
+  civil_family:
+    - "Civil Engineering"
+    - "Structural Engineering"
+  
+  chemical_family:
+    - "Chemical Engineering"
+    - "Petro Chemical Engineering"
+  
+  other_branches:
+    - "Instrumentation Engineering"
+    - "Biomedical Engineering"
+    - "Biotechnology"
+    - "Food Technology"
+    - "Textile Engineering / Technology"
+    - "Mining Engineering"
+    - "Metallurgy Engineering"
+    - "Aerospace Engineering"
+    - "Mechatronics"
